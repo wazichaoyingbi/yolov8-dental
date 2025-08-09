@@ -1,0 +1,10 @@
+# YOLO数据集配置文件
+
+train: train/images  # 训练图片路径
+val: val/images      # 验证图片路径
+
+# 类别数量
+nc: 4
+
+# 类别名称
+names: ['Impacted', 'Caries', 'Periapical Lesion', 'Deep Caries']
